@@ -1,11 +1,20 @@
 
 import './App.css';
+import DataFetching from './Components/DataFetching';
+import Home from './Components/Home';
+
+
 
 function App() {
+ 
+  
   return (
-    <div className="App">
-     <div>hey</div>
-    </div>
+    <>
+    
+    <DataFetching/>
+    <Home/>
+     
+    </>
   );
 }
 
